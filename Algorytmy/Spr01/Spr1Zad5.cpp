@@ -13,7 +13,7 @@ int suma(int x) {
 int main() {
     int x;
     do {
-        cout << "Podaj liczbe ponad 4cyfrowa" << endl;
+        cout << "Podaj liczbe ponad 4cyfrowa" << endl; // bedzie pytal użytkownika do momentu podania poprawnej liczby
         cin >> x;
     } while (x<1000);
     cout << suma(x) << endl;

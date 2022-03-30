@@ -17,7 +17,7 @@ int main() {
     macierzC[1][1] = macierzA[1][0]*macierzB[0][1] + macierzA[1][1]*macierzB[1][1];
     // wypisanie macierzy poprzez petle
     for (int i=0; i<2; i++){
-        for (int j=0; j<2; j++){
+        for (int j=0; j<2; j++){    
             cout << macierzC[i][j] << " ";
         }
         cout << endl;
