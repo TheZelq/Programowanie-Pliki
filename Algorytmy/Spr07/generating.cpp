@@ -1,11 +1,12 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 using namespace std;
 
 void generowanie(string rodzaj){
     srand(time(NULL));
     ofstream file;
-    int dlugosc = 50000; // to edytuje recznie (wielkosc zbioru)
+    const int dlugosc = 50000; // to edytuje recznie (wielkosc zbioru)
     int tab[dlugosc];
     //tworzenie pliku
     file.open("/Users/szymw/OneDrive/Pulpit/Dane"+rodzaj+to_string(dlugosc)+".txt");

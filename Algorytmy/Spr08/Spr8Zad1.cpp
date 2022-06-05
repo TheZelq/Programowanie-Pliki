@@ -32,7 +32,8 @@ void sortQuick(int tab[], int a, int b){
 }
 
 int main(){
-    int k, n = 10; // pozycja
+    const int n = 10;
+    int k; // pozycja
     int tab[n] {67, 32, 23, 75, 9, 15, 40, 20, 5, 58}; //deklaracja tablicy
     cout << "Którego elementu szukasz?" << endl; // wypisywanie elementow po sortowaniu
     cin >> k;
